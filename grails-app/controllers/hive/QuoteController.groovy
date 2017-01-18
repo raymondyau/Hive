@@ -11,6 +11,6 @@ class QuoteController extends RestfulController{
 	def createQuote()
 	{
 		
-		render "hello world"
+		render '{ "response": "hello world"}'
 	}
 }
